@@ -2,7 +2,7 @@
 ARG MATLAB_RELEASE=r2023b
 
 # Specify the extra toolboxes to install into the image.
-ARG ADDITIONAL_PRODUCTS="Automated_Driving_Toolbox Model_Predictive_Control_Toolbox Optimization_Toolbox Simulink Simulink_Test"
+ARG ADDITIONAL_PRODUCTS="Automated_Driving_Toolbox Model_Predictive_Control_Toolbox Optimization_Toolbox Simulink Simulink_Test Simulink_Coverage Simulink_Design_Verifier Requirements_Toolbox"
 FROM mathworks/matlab:$MATLAB_RELEASE
 USER root
 
